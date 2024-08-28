@@ -1,0 +1,15 @@
+package interfacefiguras.beans;/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author Raphael Willian
+ */
+public abstract interface Objeto2D {
+    void moveX(double dX);
+    void moveY(double dY);
+    void moveXY(double dX, double dY);
+}
